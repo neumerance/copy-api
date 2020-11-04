@@ -1,24 +1,22 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+# Copy-API (code challenge)
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
+```2.6.3```
 
 * Database initialization
+```
+rake db:create
+rake db:migrate
+```
 
 * How to run the test suite
+```
+bundle exec rspec
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+* How to run it?
+```
+bundle exec rails s
+```
 
-* Deployment instructions
-
-* ...
+`visit http://localhost:3000`
